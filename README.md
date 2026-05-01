@@ -1,16 +1,22 @@
-# React + Vite
+# 🎮 Gamified Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **React-based productivity app** that turns your daily tasks into a game.  
+Complete tasks, earn XP, level up, and stay motivated while managing your goals.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Features
 
-## React Compiler
+- ✅ Add and manage daily tasks
+- 🎯 Gain XP for completing tasks
+- 📈 Progress bar system
+- 🏆 Level-up motivation mechanics
+- 🗑️ Delete completed/unwanted tasks
+- 🌙 Clean dark UI
+- ⚡ Fast and responsive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Built With
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- JavaScript
+- CSS 
+- Vercel (Deployment)
