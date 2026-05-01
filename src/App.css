@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+.app.dark {
+  background: #000000;
+  color: #f8fafc;
+  min-height: 100vh;
+}
+
+.app.light {
+  background: #f8fafc;
+  color: #0f172a;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background: #2563eb;
+  color: white;
+}
+
+.app.dark .navbar {
+  background: #111111;
+  border-bottom: 1px solid #333;
+}
+
+.app.light .navbar {
+  background: #3b82f6;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+.app.dark .container {
+  background: #111111;
+  border: 1px solid #222;
+}
+
+.app.light .container {
+  background: white;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+input {
+  padding: 10px;
+  width: 65%;
+  margin-right: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.app.dark input {
+  background: #1a1a1a;
+  color: white;
+  border: 1px solid #333;
+}
+
+.app.light input {
+  border: 1px solid #cbd5e1;
+}
+
+button {
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  transition: 0.2s ease;
+}
+
+button:first-of-type {
+  background: #22c55e;
+}
+
+button:first-of-type:hover {
+  background: #16a34a;
+}
+
+.task button {
+  background: #ef4444;
+  margin-left: 6px;
+}
+
+.task button:hover {
+  background: #dc2626;
+}
+
+.navbar button {
+  background: #f59e0b;
+  color: black;
+}
+
+.navbar button:hover {
+  background: #d97706;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  margin: 12px 0;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.app.dark .task {
+  background: #1a1a1a;
+}
+
+.app.light .task {
+  background: #e2e8f0;
+}
+
+.task.done span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-weight: 600;
+}
+
+.bar {
+  height: 10px;
+  background: #880505;
+  border-radius: 10px;
+  margin: 12px 0;
+  overflow: hidden;
+}
+
+.app.light .bar {
+  background: #cbd5e1;
+}
+
+.fill {
+  height: 100%;
+  background: linear-gradient(90deg, #22c55e, #16a34a);
+}
